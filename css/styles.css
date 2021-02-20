@@ -1,0 +1,29 @@
+body{
+    padding-top: 6.8em;
+}
+
+img{
+    width: 280px;
+    
+}
+
+.menu{
+  background: rgb(84, 99, 233);
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+ width: 100%;
+ top: 0;
+ position: fixed;
+}
+
+
+.encript_fieldset{
+    width: 280px;
+    border: 2px double rgb(107, 114, 212);
+    margin: 1em;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Verdana;
+   
+}
