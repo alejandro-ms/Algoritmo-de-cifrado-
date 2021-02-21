@@ -1,29 +1,28 @@
-body{
-    padding-top: 6.8em;
+body {
+  padding-top: 6em;
+  font-family: "Roboto", sans-serif;
 }
 
-img{
-    width: 280px;
-    
+img {
+  width: 280px;
 }
 
-.menu{
+p{
+  font-weight: bold;
+}
+.menu {
   background: rgb(84, 99, 233);
   padding: 1em;
   text-align: center;
   font-size: 1em;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
- width: 100%;
- top: 0;
- position: fixed;
+  width: 100%;
+  top: 0;
+  position: fixed;
 }
 
-
-.encript_fieldset{
-    width: 280px;
-    border: 2px double rgb(107, 114, 212);
-    margin: 1em;
-    font-size: 12px;
-    font-family: 'Segoe UI', Tahoma, Verdana;
-   
+.encript_fieldset {
+  width: 280px;
+  border: 2px double rgb(107, 114, 212);
+  margin: 1em;
+  font-size: 12px;
 }
