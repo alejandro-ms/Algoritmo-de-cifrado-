@@ -17,15 +17,15 @@
         <fieldset class="encript_fieldset">
             <legend>Texto a encriptar</legend>
             <input type="text" maxlength="17">
-            <button type="submit" onclick="encript(this)">Encriptar</button>
+            <button type="submit" onclick="encript(this)">Encriptar</button>  <!-- Al pulsar el botón se llama a la funcion encript -->
         </fieldset>
         <img src="src/ilustracion.svg" alt="imagen">
         <fieldset class="encript_fieldset">
             <legend>Texto a desencriptar</legend>
-            <output id="decrypt"></output>
-            <button type="submit" onclick="decrypt(this)">Desencriptar</button>
+            <output id="encript"></output> <!-- Aqui aparece el texto encriptado -->
+            <button type="submit" onclick="decrypt(this)">Desencriptar</button> <!-- Al pulsar el botón se llama a la funcion decrypt -->
         </fieldset>
-        <p id="result"></p>
+        <p id="result"></p> <!-- Aqui aparece el resultado de la palabra desencriptada -->
     </div>
     <script src="js/app.js"></script>
 </body>
